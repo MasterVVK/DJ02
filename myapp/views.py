@@ -1,16 +1,16 @@
 from django.shortcuts import render
 
 def index_view(request):
-    return render(request, 'index.html')
+    return render(request, 'myapp/index.html')
 
 def about_view(request):
-    return render(request, 'about.html')
+    return render(request, 'myapp/about.html')
 
 def contact_view(request):
-    return render(request, 'contact.html')
+    return render(request, 'myapp/contact.html')
 
 def services_view(request):
-    return render(request, 'services.html')
+    return render(request, 'myapp/services.html')
 
 def blog_view(request):
-    return render(request, 'blog.html')
+    return render(request, 'myapp/blog.html')
