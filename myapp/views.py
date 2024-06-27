@@ -3,6 +3,9 @@ from django.shortcuts import render
 def index_view(request):
     return render(request, 'myapp/index.html')
 
+#def news_view(request):
+#   return render(request, 'news/news.html')
+
 def about_view(request):
     return render(request, 'myapp/about.html')
 
